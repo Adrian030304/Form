@@ -27,7 +27,7 @@ const SignInScreen = () => {
   const onSignInPressed = async (data) => {
     try {
       const response = await axios.post(
-        "https://intw3.famdev.ro/app/public/api/authenticate",
+        "https://jsonplaceholder.typicode.com/posts",
         {
           email: data.email,
           password: data.parola,

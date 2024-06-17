@@ -36,7 +36,7 @@ const SignUpScreen = () => {
   const onSignInPress = () => {
     console.log("Pressed");
   };
-  const url = "https://intw3.famdev.ro/app/public/api/user";
+  const url = "https://my-json-server.typicode.com/typicode/demo/db";
   const onSignUpPressed = async (data) => {
     try {
       const response = await axios.post(url, {
